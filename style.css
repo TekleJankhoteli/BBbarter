@@ -1,0 +1,148 @@
+
+
+/* header */
+
+
+header{display: flex;
+    flex-direction: row;
+
+}
+.header1{display: flex;
+   align-items: center;
+flex-direction: row;
+width: 100%;
+}
+
+header img{ 
+    width: 159px;
+    height: 154.5px;
+    left: 82px;
+    top: 28.41px;
+padding-left: 82px;}
+
+    header nav ul {display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: space-between; */
+        justify-content: space-around;
+        list-style-type: none;
+        color: #000000;
+    }
+
+    header nav li {
+        display: flex; 
+        flex-direction: row;  
+        /* justify-content: space-between;   */
+          width: 350px;
+        /* height: 36.41px;  */
+         /* left: 314px; */
+        top: 98px; 
+        font-family: 'Noto Sans Georgian';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px; 
+     line-height: 41px;
+        color: #000000;
+    }
+    header nav a {
+        text-decoration: none; 
+        color: inherit; 
+    }
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 183px;
+        height: 73.05px;
+        left: 1655px;
+        top: 74px;
+        color: white;
+        background-color: #000000;
+        border-radius: 50px;
+        margin-right: 82px;
+
+        }
+
+        /* Page1 */
+
+        .container{ display: flex;
+            align-items: center;
+            background-image:url('./photoes/social-media-3846597\ 2.png');
+            background-size:cover;
+            width: 2180px;
+height: 1152px;
+left: 0px;
+top: 206px;
+
+        }
+
+        .page1text{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding-left: 82px;
+        }
+        .page1h1{width: 1018px;
+            height: 190px;
+            left: 88px;
+            top: 379px;
+            
+            font-family: 'Noto Sans Georgian';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 70px;
+            line-height: 95px;
+            
+            color: #000000;
+            }
+
+            .page1p{
+                width: 984px;
+                height: 139px;
+                left: 95px;
+                top: 647px;
+                
+                font-family: 'Noto Sans Georgian';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 41px;
+                
+                color: #000000;}
+
+                .page1p2{width: 174px;
+                    height: 41px;
+                    left: 100px;
+                    top: 857px;
+                    font-family: 'Noto Sans Georgian';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 41px;
+                    /* identical to box height */
+                    color: #000000;
+                    text-decoration: none; 
+                    
+                    
+                    }
+
+                    .page1photo{display: flex;
+                        
+
+                        width: 374px;
+                        height: 667px;
+                        left: 1464px;
+                        top: 398px;
+                        border-radius: 50px;}
+
+                        .page1arrow{
+                        
+                       
+                        padding-right: 1000px;
+                    }
+
+                    .page1arrow{display: block;
+                   }
+        
+
+ 
